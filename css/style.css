@@ -1,8 +1,4 @@
-* {
-  box-sizing: border-box;
+body {
+  background: none;
 }
-
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
-}
+/*# sourceMappingURL=style.css.map */
