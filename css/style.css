@@ -356,11 +356,11 @@ template {
   display: none;
 }
 
-.header {
-  background-color: #fff;
+.navbar {
+  background-color: #FFF;
 }
 
-.header-top {
+.navbar-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,9 +374,34 @@ template {
   padding-bottom: 40px;
 }
 
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  padding: 31px 0;
+}
+
+.navbar-menu__link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.navbar-bottom {
+  background-color: #0A223D;
 }
 
 .search {
@@ -393,7 +418,6 @@ template {
   width: 350px;
   height: 100%;
   background-color: #F5FAFE;
-  border-radius: 6px;
   border: none;
   font-size: 12px;
   line-height: 15px;

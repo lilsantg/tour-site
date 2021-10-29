@@ -1,5 +1,5 @@
-.header
-  background-color: #fff
+.navbar
+  background-color: $white
   &-top
     display: flex
     align-items: center
@@ -9,6 +9,20 @@
   &__search
     margin-right: auto
     margin-left: 108px
+  &-menu
+    display: flex
+    list-style: none
+    justify-content: space-between
+    align-items: center
+    margin: 0
+    padding: 0
+    padding: 31px 0
+    &__link
+      text-decoration: none
+      color: $white
+  &-bottom
+    background-color: $dark
+
 .search
   display: flex
   position: relative
@@ -19,7 +33,6 @@
     width: 350px
     height: 100%
     background-color: #F5FAFE
-    border-radius: 6px
     border: none
     font-size: 12px
     line-height: 15px
